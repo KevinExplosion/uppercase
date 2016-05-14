@@ -1,3 +1,49 @@
+.navbar {
+  margin-left: 20px;
+}
+
+.instructions {
+  background-color: #FFE401;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  border-left: 2px groove #000;
+  border-top: 2px groove #000;
+  border-right: 2px groove #000;
+}
+
+.form {
+  background-color: #00a770;
+  padding: 15px;
+  margin-top: -10px;
+  border-radius: 0 0 10px 10px;
+  border-left: 2px groove #000;
+  border-bottom: 2px groove #000;
+  border-right: 2px groove #000;
+}
+
+.title, .semiCircle {
+  font-weight: bold;
+  background-color: #00a770;
+  color: #fff;
+  border: 3px solid #fee303;
+  box-shadow: 0 0 1px #000;
+}
+
+.title {
+  padding: 5px;
+  width: 325px;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.semiCircle {
+  padding: 10px;
+  width: 55px;
+  border-radius: 200px;
+  margin-left: 135px;
+  line-height: 10px;
+}
+
 #hidden {
   display: none;
 }

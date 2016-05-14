@@ -1,12 +1,21 @@
 $(document).ready(function() {
+
+  //submit function line
   $("form#capitalForm").submit(function(event) {
-    var uppercaseInput = $("input#uppercase").val();
+    
+    //declare the HTML form input as a variable
+    var uppercaseInput = $("#uppercase").val();
+
+    //declare a variable that takes the HTML form input and capitalizes it
     var uppercase = uppercaseInput.toUpperCase();
 
-    $(".uppercase").text(uppercase);
+      //append the capitalized text to the uppercase class
+      $(".uppercase").text(uppercase);
 
-    $("#hidden").show();
+      //show the hidden ID
+      $("#hidden").show();
 
+    //prevent the default action of the form submittal
     event.preventDefault();
   });
 });
